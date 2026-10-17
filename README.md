@@ -1,12 +1,14 @@
 # dtrpg-design
 
 Design assets for the DriveThruRPG desktop app (Libri): app icons and HTML/JS UI prototypes. No build
-system, package manager, or test suite — everything runs directly in a browser.
+system, package manager, or test suite - everything runs directly in a browser.
 
 ## Contents
 
-- `app-icons/` — Libri app icon in each platform format (`.svg` source, `.png`, `.icns`, `.ico`)
-- `claude-1/` — a standalone UI prototype for the Libri library view
+- `app-icons/` - Libri app icon in each platform format (`.svg` source, `.png`, `.icns`, `.ico`)
+- `claude-1/` - UI prototype for the Libri library view, the design the shipped app was built from
+- `claude-2/` - proposed v2 design: multi-root storage, tags, archive browsing, summaries, agent/MCP
+  settings, and an insights view. Use the screen switcher above the window frame to move between screens.
 
 ## Running a prototype
 
