@@ -20,4 +20,14 @@ cd claude-1 && python3 -m http.server 8000
 # then open http://localhost:8000/Libri.html
 ```
 
+To view the proposed v2 design instead:
+
+```bash
+cd claude-2 && python3 -m http.server 8000
+# then open http://localhost:8000/Libri.html
+```
+
+See `claude-2/ARCHITECTURE-REVIEW.md` for the comparison with the current Rust/GPUI application and the
+recommended implementation sequence.
+
 See `AGENTS.md` for prototype architecture and conventions.
